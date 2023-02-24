@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Merriweather:wght@700&family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+    
+    <title>pin entry system</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+<body>
+
+    <h1>Welcome to Pin Entry System </h1>
+    <div class="container">
+        <p id="display" class="display">Click on "Set pin" to set new pin<br>Click on "Check Pin" to check your pin</p>
+      <table class="col">
+        <tr>
+            <td> <button type="button" class="number-button"> </button> </td>
+            <td> <button type="button" class="number-button"> </button> </td>
+            <td> <button type="button" class="number-button"> </button> </td>
+        </tr>
+        <tr>
+            <td> <button type="button" class="number-button"> </button> </td>
+            <td> <button type="button" class="number-button"> </button> </td>
+            <td> <button type="button" class="number-button"> </button> </td>
+        </tr>
+        <tr>
+            <td> <button type="button" class="number-button"> </button> </td>
+            <td> <button type="button" class="number-button"> </button> </td>
+            <td> <button type="button" class="number-button"> </button> </td>
+        </tr>
+        <tr> 
+            <td> <button type="button" class="All-clear-button">AC</button> </td>
+            <td> <button type="button" class="number-button"> </button> </td>
+            <td> <button type="button" class="Submit-button">Submit</button> </td>
+        </tr>
+      </table>  
+
+
+
+    </div>
+
+
+    <div class = "input">
+        <button type="button" id ="SetPin" class="Set Pin">Set pin </button> 
+        <br>
+        <br>
+        <button type="button" id="CheckPin" class="Check Pin">Check Pin</button> 
+    </div>
+
+    <div class="indicator" id="indicator">
+        <p>No pin is saved</p>
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
