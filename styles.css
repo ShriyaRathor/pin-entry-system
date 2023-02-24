@@ -60,14 +60,11 @@ table{
     height: 40px;
     border-radius: 5px;
     text-align: center;
+    vertical-align: middle;
+    
 }
 
 
-/* .display p {
-    position:relative;
-    text-align: justify;
-    margin: auto;
-} */
 
 .input{
     display: inline-block;
